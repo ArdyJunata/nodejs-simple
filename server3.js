@@ -1,5 +1,5 @@
 const http = require('http');
-const port = process.env.PORT || 3003;
+const port = process.env.PORT || 3002;
 const server = http.createServer((req, res) => {
     if (req.url == '/hello') {
         res.end('Hello World')
