@@ -1,10 +1,10 @@
 const http = require('http');
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3003;
 const server = http.createServer((req, res) => {
     if (req.url == '/hello') {
         res.end('Hello World')
     } else {
-        res.end('Server 1')
+        res.end('Server 3')
     }
 })
 
